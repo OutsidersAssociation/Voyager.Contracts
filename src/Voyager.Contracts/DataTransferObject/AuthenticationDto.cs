@@ -1,7 +1,4 @@
-namespace Voyager.Conracts
+namespace Voyager.Contracts.DataTransferObject
 {
-    public class AuthenticationDto
-    {
-        
-    }
+    public sealed record AuthenticationDto(string Login, string Password);
 }

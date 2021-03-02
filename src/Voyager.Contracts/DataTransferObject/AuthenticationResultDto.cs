@@ -1,4 +1,4 @@
-$HEADER$namespace $NAMESPACE$
+namespace Voyager.Contracts.DataTransferObject
 {
-  public class $CLASS$ {$END$}
+    public sealed record AuthenticationResultDto(string IsSuccess, string Token, string ErrorMessage);
 }
